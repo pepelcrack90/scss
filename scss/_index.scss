@@ -1,0 +1,33 @@
+/*index*/
+
+.main {
+    img {
+        width: 100%;
+        margin: 5% 0;
+    }
+    h3 {
+        font-size: 1.25em;
+        margin: 1.25em 0;
+        color: $black;
+    }
+    p {
+        font-size: 1.25em;
+        margin: 1.25em 0;
+    }
+    a {
+        padding: .625em .125em;
+        color: $black;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border: .3125em solid $black;
+    }
+    a:hover {
+        background-color: $grey;
+    }
+}
+
+.scale:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}

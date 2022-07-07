@@ -1,0 +1,29 @@
+/*diseños*/
+
+.main__diseños {
+    img {
+        width: 26.5625em;
+        height: 34.375em;
+    }
+    h2 {
+        font-size: 2.5em;
+        margin: 0 1em;
+        color: $black;
+    }
+    a {
+        padding: .625em .225em;
+        margin: 0 2em;
+        color: $black;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+        border: .2em solid $black;
+    }
+    a:hover {
+        background-color: $grey;
+    }
+    p {
+        font-size: 1.7em;
+        margin: 1.25em 1em;
+    }
+}
